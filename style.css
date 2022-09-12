@@ -134,26 +134,42 @@ transfer-PART
 .section-transfer-grid-part{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 
 }
 .transfer-part{
-
+margin-bottom: 25px;
+border: 1px solid lightgray;
+border-radius: 10px;
 }
-.transfer-images{
-
-}
-.transfer-images{
-
+.transfer-images img{
+    width: 100%;
 }
 .transfer-p-tag{
-
+    font-size: 16px;
+    font-weight: 600;
+    color: #161616;
+    margin-top: 1px;
 }
-.transfer-icon{
-
+.transfer-button:hover{
+    background-color: #55c2da;
 }
-.transfer-icon{
-
+.transfer-icon-main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-18px;
+    font-size: 14px;
 }
-.number-text{
-
+.fa-clock a{
+    margin-left: 8px;
+    font-size: 10px;
 }
+.fa-comment-dots a{
+    margin-left: 8px;
+    font-size: 10px;
+
+ /* <!-------------------------------
+MAIN-BLOG-GRID-PART-STYLE-START-END 
+------------------------------------> */   
