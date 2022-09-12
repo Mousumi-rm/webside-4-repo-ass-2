@@ -66,13 +66,94 @@ HEADER-PART-BIG-BACKGROUND
     transition:  width 1s, height 1s, transform 1s ;
 }
 .big-background-images:hover{
-
-    transform: rotate(720deg);  
+ 
+    transform: rotate(720deg);
 }
 
 .big-background-images img{
      width: 124%;
      margin-top: -2px;
      margin-bottom:-5px;
-     
+
+}
+
+/* <!----------------------------
+HEADER-PART-BIG-BACKGROUND-END
+-----------------------------------> */
+
+
+/* <!----------------------------
+MAIN-BLOG-GRID-PART-STYLE-START 
+-------------------------------> */
+main{
+    display: grid;
+    grid-template-columns: 315px auto;
+    justify-items: center;
+    margin-top: 130px;
+}
+/* ----------------
+ASIDE-PART
+---------------- */
+.section-main-blog-button-part{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.all-button{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;  
+    margin-top:30px;
+} 
+.button-main-two{
+     width: 200px;
+     height: 50px;
+     border: none; 
+     border-radius: 15px;
+}
+.button-main-two:hover{
+    background-color: #55c2da;
+}
+.button-main-two-color{
+    width: 200px;
+    height: 50px; 
+    border: none;
+    background-color: #5dbea3;
+    color: white;
+    border-radius: 15px;
+}
+.button-main-two-color:hover{
+    background-color: #55c2da;
+}
+/* ----------------
+transfer-PART
+---------------- */
+.section-transfer-grid-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.transfer-part{
+
+}
+.transfer-images{
+
+}
+.transfer-images{
+
+}
+.transfer-p-tag{
+
+}
+.transfer-icon{
+
+}
+.transfer-icon{
+
+}
+.number-text{
+
 }
