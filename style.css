@@ -132,15 +132,15 @@ ASIDE-PART
 transfer-PART
 ---------------- */
 .section-transfer-grid-part{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 
 }
 .transfer-part{
-margin-bottom: 25px;
-border: 1px solid lightgray;
-border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
 }
 .transfer-images img{
     width: 100%;
@@ -152,8 +152,11 @@ border-radius: 10px;
     margin-top: 1px;
 }
 .transfer-button:hover{
-    background-color: #55c2da;
+    background-color: #55c2da;   
 }
+
+/* ---------icon--------- */
+
 .transfer-icon-main-div{
     display: flex;
     flex-direction: row;
@@ -169,7 +172,49 @@ border-radius: 10px;
 .fa-comment-dots a{
     margin-left: 8px;
     font-size: 10px;
-
- /* <!-------------------------------
+}
+ /*-------------------------------
 MAIN-BLOG-GRID-PART-STYLE-START-END 
-------------------------------------> */   
+------------------------------------ */   
+
+
+/*--------------------------
+FOOTER-PART-START
+---------------------------- */
+footer{
+    background-color: black;
+    color: white;
+
+
+}
+.footer-sectoin{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom:70px;
+    padding-top: 30px;
+    padding-bottom: 90px;   
+}
+/* ------FOOTER-TEXT-HR-------- */
+.footer-h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.footer-hr{
+    border: 1px solid #DD0000;
+    margin-left:10% ;
+    margin-right:10% ;
+}
+/* ------------FOOTER-A-ICON------ */
+.footer-a{
+    font-size: 15px;
+    line-height: 41px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    padding-right: 18px;
+    color: #B9B9B9;
+}
+.footer-social{
+    color: #B9B9B9;
+    padding-right: 18px;
+}
