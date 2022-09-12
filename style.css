@@ -218,3 +218,24 @@ footer{
     color: #B9B9B9;
     padding-right: 18px;
 }
+/* ------------------------------
+MEDIA-QUARRY-PART
+------------------------------- */
+ /* smaller-device-tab */
+ @media screen and (max-width:576px) {
+    .big-background{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .all-button{
+        display:flex;
+        flex-direction:row-reverse;
+        align-items: center;
+    }
+}
+/* medium-device */
+@media  and ( min-width:577) and ( max-width:992) {
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
